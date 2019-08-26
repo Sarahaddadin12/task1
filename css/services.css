@@ -1,0 +1,141 @@
+body{
+  background-color: lightgray;
+  font-family: Font;
+  margin: 0;
+  padding:0;
+
+}
+
+
+@font-face{
+  font-family: Font;
+  src:url(../fonts/Molengo-Regular.ttf);
+}
+.Container{
+  
+  background-image: url(../images/manuaal.jpg);
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+}
+/*HEAD SECTION*/
+.look{
+  background-color: black;
+}
+.Header{
+text-align: center;
+}
+.logo{
+ float: left;
+    margin-left: 100px;
+}
+.Header nav{
+     font-size: 18px;
+    /* height: 43px; */
+    line-height: 70px;
+}
+.Header a{
+  text-decoration: none;
+  color:white;
+  padding: 20px;
+}
+a:hover{
+  color:lightblue;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+     min-width: 100px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  /*padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#808080;}
+
+.dropdown:hover .dropdown-content {display: block;}
+/* END OF SECTION*/
+
+/*SECTION 3 (cars)*/
+
+.sec-3{
+  clear:both;
+   padding-top: 450px;
+   padding-bottom: 20px;
+   margin-left: 30px;
+}
+
+.picture{
+       float: left;
+    box-shadow: 15px 15px 20px grey;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 38px;
+    border-radius: 20px;
+}
+#pic{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#pic:hover{
+  transform: scale(0.9);
+  overflow: hidden;
+}
+h3{
+  padding-left: 20px;
+}
+
+#m1{
+    display: inline;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.meta{
+  margin-top: 10px;
+}
+
+.d{
+ margin-left: 24px;
+    display: inline;
+}
+button{
+       background-color: #2d98dd;
+    border: none;
+    padding: 15px;
+    width: 335px;
+    margin: 6px 16px;
+    border-radius: 8px;
+
+}
+.button a{
+  text-decoration: none;
+  font-size: 16px;
+  color:#fff;
+}
+.button:hover a{
+  color:black;
+}
+
+/*FOOTER*/
+#Footer{
+  clear: both;
+  background-color: black;
+
+}
+  .copy{
+ text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 12px;
+    }
